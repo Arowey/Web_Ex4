@@ -1,0 +1,10 @@
+# HBuilderX 的编译中间产物
+unpackage/
+node_modules/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.log
+
+# 注意：docs/ 是打包好的 H5 站点，要提交，GitHub Pages 用它
