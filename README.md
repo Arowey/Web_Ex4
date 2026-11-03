@@ -40,20 +40,20 @@
 项目里的 **`docs/` 目录已经是打包好的 H5 站点**（相对路径，子目录部署也能跑），
 不用再发行一次，推上去打开 Pages 就有链接：
 
-1. 在 GitHub 网页上新建一个空仓库（比如 `Web_EX4`），**不要**勾选 Add README；
-2. 在本目录执行：
+1. 在 GitHub 网页上新建一个空仓库（本项目用的是 `Web_Ex4`），**不要**勾选 Add README；
+2. 在本目录执行（本仓库已经推过一次，重装系统后照这个来）：
 
 ```bash
 git init
 git add .
 git commit -m "实验四：Vue + uni-app 校园美食手账"
 git branch -M main
-git remote add origin https://github.com/你的用户名/Web_EX4.git
+git remote add origin https://github.com/Arowey/Web_Ex4.git
 git push -u origin main
 ```
 
 3. 仓库 **Settings → Pages → Source 选 Deploy from a branch → main / docs → Save**；
-4. 等 1～2 分钟，访问 `https://你的用户名.github.io/Web_EX4/`。
+4. 等 1～2 分钟，访问 <https://arowey.github.io/Web_Ex4/>。
 
 > 如果 push 报 SSL 证书错误，用 `git -c http.sslVerify=false push -u origin main`。
 >
