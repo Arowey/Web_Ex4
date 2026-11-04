@@ -121,7 +121,7 @@ ToastMessage、AppFooter、HeroBanner —— 15 个，加上 3 个页面和 App.
 | `:root { --brand }` | 直接写颜色值 | 小程序没有 `:root` |
 | `App.vue` 带 `<template>` | 没有 `<template>` | uni-app 的 App.vue 只放全局逻辑 |
 
-详细对照和逐文件讲解见 **`迁移说明.md`**。
+逐部分讲解（含每节的知识点清单）见 **`项目讲解.md`**，迁移对照与答辩问题见 **`迁移说明.md`**。
 
 ## 附：命令行构建（可选，需要 Node）
 
