@@ -1,0 +1,8 @@
+node_modules/
+
+# 运行时生成的数据文件，首次启动会从 server/seed.json 重建
+data/db.json
+data/*.broken-*
+
+.DS_Store
+*.log

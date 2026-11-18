@@ -1,0 +1,16 @@
+{
+  "name": "shiguang-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "食光 · 校园美食手账 的 Express 后端",
+  "type": "commonjs",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
