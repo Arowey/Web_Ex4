@@ -133,3 +133,10 @@ npx uni build -p mp-weixin   # 微信小程序
 ```
 
 用 HBuilderX 的话完全不需要这一步。
+
+---
+
+## 同仓库的其它实验
+
+- **实验六（Express 后端）** 在 [`实验六/`](./实验六) 目录：给本项目的 uni-app 前端加了接口层，
+  菜品、评论、收藏都改成走服务端，`cd 实验六 && npm start` 后访问 http://localhost:3000 即可。
